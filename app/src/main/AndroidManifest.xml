@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GK"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivityThongTinCaNhan"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoard"
+            android:exported="false"
+            android:label="@string/title_activity_dash_board"
+            android:theme="@style/Theme.GK.NoActionBar" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:theme="@style/Theme.GK" />
+        <activity
+            android:name=".MainActivityDangKi"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityDangNhapDangKi"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivityNhacNhoVaThongBao"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityThietLapNganSach"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityBaoCaoVaPhanTich"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityQLDanhMuc"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityThuNhap"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityChiTieu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityDashBoard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
